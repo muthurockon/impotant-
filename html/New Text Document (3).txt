@@ -1,0 +1,8 @@
+<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+<img src="ste.jpg" width=120px height=100px>
+</body>

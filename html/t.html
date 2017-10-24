@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>addition of two numbers</title>
+</head>
+  <body>
+       <form name="f">
+             enter number1:
+                  <input type="text" name=t1 id=a></br>
+             enter number2:
+                 <input type="text" name=t2 id=b></br>
+		Result :
+                  <input type="text" name=t3 id=c></br>
+                   <input type="button" value="add" onclick="compute()">
+ 		 <input type="reset" value="reset">
+</form>
+<script>
+function compute(){
+var a=parseInt(document.f.t1.value);
+var b=parseInt(document.f.t2.value);
+document.f.t3.value=a+b;
+}
+
+</script>
+</body>
+</html>

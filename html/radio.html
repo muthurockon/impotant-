@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+function r_click(){
+if(document.f.r[0].checked)
+document.getElementById("spn").style.display="";
+else
+document.getElementById("spn").style.display="none";
+
+}
+
+</script>
+</head>
+<body>
+<form name="f">
+<input type="radio" name="r"value="show" onclick=r_click() checked='çhecked'>show
+<input type="radio" name="r"value="hide" onclick=r_click()>hide
+<br>
+<span id="spn">this is some text</span>
+
+</body>
+</html>

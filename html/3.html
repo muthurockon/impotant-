@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>addition of two numbers</title>
+</head>
+  <body>
+       <form name="f">
+             enter number1:
+                  <input type="text" name=t1 id=a></br>
+            
+		Result :
+                  <input type="text" name=t3 id=c></br>
+                   <input type="button" value="reverse" onclick="compute()">
+ 		 <input type="reset" value="reset">
+</form>
+<script>
+function compute(){
+var s=document.f.t1.value;
+var o="";
+
+for (var i = s.length - 1;i >= 0;i--) { 
+o+=s[i];
+document.f.t3.value=o;
+}
+}
+
+
+
+</script>
+</body>
+</html>

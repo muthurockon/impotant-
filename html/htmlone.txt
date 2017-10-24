@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>repl.it</title>
+        <script src="index.js"></script>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+      <h1 align = "center">__________ABOUT ME___________</h1>
+      <h4 align = "center">Allow me to introduce myself.</h4>
+      <div style="width:50%; float:right;">
+        <h3>Muthukumar.</h3>
+        <p>
+          Google is an American multinational technology company specializing in Internet-related services and products. These include online advertising technologies, search, cloud computing, software, and hardware.
+
+Google was founded in 1996 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University, in California. Together, they own about 14 percent of its shares and control 56 percent of the stockholder voting power through supervoting stock. They incorporated Google as a privately held company on September 4, 1998. An initial public offering (IPO) took place on August 19, 2004, and Google moved to its new headquarters in Mountain View, California, nicknamed the Googleplex.[6]
+
+In August 2015, Google announced plans to reorganize its various interests as a conglomerate called Alphabet Inc. Google, Alphabet's leading subsidiary, will continue to be the umbrella company for Alphabet's Internet interests. Upon completion of the restructure, Sundar Pichai became CEO of Google, replacing Larry Page, who became CEO of Alphabet.[7][8][9][10]
+        </p><br/>
+        <p align = "center"><b>LOOK WHAT I CAN DO</b></p>
+        <div style="width:50%; float:left">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>AngularJS</li>
+        </ul>
+        </div>
+         <div style="width:50%; float:left">
+        <ul>
+          <li>C++</li>
+          <li>Java</li>
+          <li>Php</li>
+          <li>Python</li>
+        </ul>
+        </div>
+      </div>
+      <div style="width:50%; float:left">
+        <p align = "center">
+          <br/><br/><br/><br/><br/><br/>
+        <img src = "https://s-media-cache-ak0.pinimg.com/originals/b3/3f/99/b33f9918c706928561124caf80545276.jpg" id="musk" height=200 width=200>
+        </p><br/><br/>
+        <h3 align = "center">Things I am interested in.</h3>
+        <ul id="menu" align="center">
+          <li><img src = "http://www.pngall.com/wp-content/uploads/2016/07/Twitter-PNG-Image.png" id="twitter" height=20 width=20></li>
+        
+          <li><img src = "https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png" id="fb" height=20 width=20></li>
+       
+          <li><img src = "https://s1.wp.com/i/favicons/android-chrome-192x192.png" id="wordpress" height=20 width=20></li>
+        </ul>
+      </div>
+    </body>
+</html>
+
+CSS
+#musk{
+  width:195px;
+  height:200px;
+}
+
+#twitter{
+  width:30px;
+  height:30px;
+}
+#fb{
+  width:30px;
+  height:30px;
+}
+
+#wordpress{
+  width:30px;
+  height:30px;
+}
+#menu li{
+  display:inline;
+}
